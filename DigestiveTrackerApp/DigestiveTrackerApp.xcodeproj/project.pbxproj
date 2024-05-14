@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D46F79452BF38A550007E394 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46F79442BF38A550007E394 /* User.swift */; };
+		D46F79472BF38BB20007E394 /* Residence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46F79462BF38BB20007E394 /* Residence.swift */; };
+		D46F79492BF38C120007E394 /* Illness.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46F79482BF38C120007E394 /* Illness.swift */; };
+		D46F794D2BF38EA50007E394 /* Stool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46F794C2BF38EA50007E394 /* Stool.swift */; };
+		D46F794F2BF38ED50007E394 /* MedicalTreatment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46F794E2BF38ED50007E394 /* MedicalTreatment.swift */; };
+		D46F79512BF38F110007E394 /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46F79502BF38F110007E394 /* Medicine.swift */; };
+		D46F79532BF3963D0007E394 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46F79522BF3963D0007E394 /* Meal.swift */; };
+		D46F79552BF396860007E394 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46F79542BF396860007E394 /* Dish.swift */; };
+		D46F79572BF396FF0007E394 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46F79562BF396FF0007E394 /* Ingredient.swift */; };
+		D46F79592BF398450007E394 /* Symptom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46F79582BF398450007E394 /* Symptom.swift */; };
+		D46F795B2BF398950007E394 /* DigestiveHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46F795A2BF398950007E394 /* DigestiveHealth.swift */; };
+		D46F795D2BF398C80007E394 /* GeneralHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46F795C2BF398C80007E394 /* GeneralHealth.swift */; };
+		D46F795F2BF398D90007E394 /* MentalHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46F795E2BF398D90007E394 /* MentalHealth.swift */; };
+		D4A3535D2BF3B52B003B2F63 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A3535C2BF3B52B003B2F63 /* Entry.swift */; };
 		D4EF637E2BF2653100C5D95E /* DigestiveTrackerAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EF637D2BF2653100C5D95E /* DigestiveTrackerAppApp.swift */; };
 		D4EF63802BF2653100C5D95E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EF637F2BF2653100C5D95E /* ContentView.swift */; };
 		D4EF63822BF2653100C5D95E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EF63812BF2653100C5D95E /* Item.swift */; };
@@ -35,6 +49,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D46F79442BF38A550007E394 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D46F79462BF38BB20007E394 /* Residence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Residence.swift; sourceTree = "<group>"; };
+		D46F79482BF38C120007E394 /* Illness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Illness.swift; sourceTree = "<group>"; };
+		D46F794C2BF38EA50007E394 /* Stool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stool.swift; sourceTree = "<group>"; };
+		D46F794E2BF38ED50007E394 /* MedicalTreatment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalTreatment.swift; sourceTree = "<group>"; };
+		D46F79502BF38F110007E394 /* Medicine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicine.swift; sourceTree = "<group>"; };
+		D46F79522BF3963D0007E394 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		D46F79542BF396860007E394 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		D46F79562BF396FF0007E394 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		D46F79582BF398450007E394 /* Symptom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symptom.swift; sourceTree = "<group>"; };
+		D46F795A2BF398950007E394 /* DigestiveHealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigestiveHealth.swift; sourceTree = "<group>"; };
+		D46F795C2BF398C80007E394 /* GeneralHealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralHealth.swift; sourceTree = "<group>"; };
+		D46F795E2BF398D90007E394 /* MentalHealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealth.swift; sourceTree = "<group>"; };
+		D4A3535C2BF3B52B003B2F63 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		D4EF637A2BF2653100C5D95E /* DigestiveTrackerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigestiveTrackerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EF637D2BF2653100C5D95E /* DigestiveTrackerAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigestiveTrackerAppApp.swift; sourceTree = "<group>"; };
 		D4EF637F2BF2653100C5D95E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +101,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D46F79432BF389CD0007E394 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D46F79442BF38A550007E394 /* User.swift */,
+				D46F79462BF38BB20007E394 /* Residence.swift */,
+				D46F79482BF38C120007E394 /* Illness.swift */,
+				D46F794C2BF38EA50007E394 /* Stool.swift */,
+				D46F794E2BF38ED50007E394 /* MedicalTreatment.swift */,
+				D46F79502BF38F110007E394 /* Medicine.swift */,
+				D46F79522BF3963D0007E394 /* Meal.swift */,
+				D46F79542BF396860007E394 /* Dish.swift */,
+				D46F79562BF396FF0007E394 /* Ingredient.swift */,
+				D46F79582BF398450007E394 /* Symptom.swift */,
+				D46F795A2BF398950007E394 /* DigestiveHealth.swift */,
+				D46F795C2BF398C80007E394 /* GeneralHealth.swift */,
+				D46F795E2BF398D90007E394 /* MentalHealth.swift */,
+				D4A3535C2BF3B52B003B2F63 /* Entry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		D4EF63712BF2653000C5D95E = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +145,7 @@
 		D4EF637C2BF2653100C5D95E /* DigestiveTrackerApp */ = {
 			isa = PBXGroup;
 			children = (
+				D46F79432BF389CD0007E394 /* Models */,
 				D4EF637D2BF2653100C5D95E /* DigestiveTrackerAppApp.swift */,
 				D4EF637F2BF2653100C5D95E /* ContentView.swift */,
 				D4EF63812BF2653100C5D95E /* Item.swift */,
@@ -260,9 +310,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D46F79572BF396FF0007E394 /* Ingredient.swift in Sources */,
+				D4A3535D2BF3B52B003B2F63 /* Entry.swift in Sources */,
+				D46F795D2BF398C80007E394 /* GeneralHealth.swift in Sources */,
+				D46F79452BF38A550007E394 /* User.swift in Sources */,
+				D46F795B2BF398950007E394 /* DigestiveHealth.swift in Sources */,
 				D4EF63802BF2653100C5D95E /* ContentView.swift in Sources */,
+				D46F79492BF38C120007E394 /* Illness.swift in Sources */,
+				D46F79592BF398450007E394 /* Symptom.swift in Sources */,
+				D46F79532BF3963D0007E394 /* Meal.swift in Sources */,
+				D46F79472BF38BB20007E394 /* Residence.swift in Sources */,
 				D4EF63822BF2653100C5D95E /* Item.swift in Sources */,
+				D46F795F2BF398D90007E394 /* MentalHealth.swift in Sources */,
 				D4EF637E2BF2653100C5D95E /* DigestiveTrackerAppApp.swift in Sources */,
+				D46F79512BF38F110007E394 /* Medicine.swift in Sources */,
+				D46F79552BF396860007E394 /* Dish.swift in Sources */,
+				D46F794F2BF38ED50007E394 /* MedicalTreatment.swift in Sources */,
+				D46F794D2BF38EA50007E394 /* Stool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

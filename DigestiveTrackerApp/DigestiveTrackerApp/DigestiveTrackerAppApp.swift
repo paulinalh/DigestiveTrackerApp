@@ -13,6 +13,20 @@ struct DigestiveTrackerAppApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
+            User.self,
+            Residence.self,
+            Illness.self,
+            //Entry.self,
+            Stool.self,
+            MedicalTreatment.self,
+            Medicine.self,
+            Meal.self,
+            Dish.self,
+            Ingredient.self,
+            Symptom.self,
+            DigestiveHealth.self,
+            GeneralHealth.self,
+            MentalHealth.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
