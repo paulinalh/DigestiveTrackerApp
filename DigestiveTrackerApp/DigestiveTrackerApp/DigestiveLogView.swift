@@ -32,7 +32,7 @@ struct DigestiveLogView: View {
             
             VStack(alignment: .leading){
                 
-                //Title "Digestive Health" and Time Picker
+                // Title "Digestive Health" and Time Picker
                 HStack(alignment: .bottom){
                     
                     VStack(alignment: .leading){
@@ -76,24 +76,68 @@ struct DigestiveLogView: View {
                 }
                 .padding()
                 
+                // Selected Symptoms
+                VStack{
+                    HStack{
+                        Text("Selected Symptoms")
+                            .font(.system(size: 20, weight: .bold, design: .rounded))
+                            .foregroundColor(.black)
+                            .padding(.horizontal)
+                        
+                        Spacer()
+                    }
+                    
+                    Spacer()
+                }
+                
+                // Select Symptoms
+                VStack{
+                    HStack{
+                        Text("Select Symptoms")
+                            .font(.system(size: 20, weight: .bold, design: .rounded))
+                            .foregroundColor(.black)
+                            .padding(.horizontal)
+                        
+                        Spacer()
+                    }
+                    
+                    List{
+                        RowButtonComponent(mainColor: .orangeMain, darkColor: .orangeDark, text: "Acidity")
+                            .listRowBackground(Color.orangeBG)
+                            .listRowSeparator(.hidden)
+                        
+                        RowButtonComponent(mainColor: .orangeMain, darkColor: .orangeDark, text: "Bloated")
+                            .listRowBackground(Color.orangeBG)
+                            .listRowSeparator(.hidden)
+                        
+                        RowButtonComponent(mainColor: .orangeMain, darkColor: .orangeDark, text: "Nausea")
+                            .listRowBackground(Color.orangeBG)
+                            .listRowSeparator(.hidden)
+                        
+                        RowButtonComponent(mainColor: .orangeMain, darkColor: .orangeDark, text: "Stomach Pain")
+                            .listRowBackground(Color.orangeBG)
+                            .listRowSeparator(.hidden)
+                        
+                        
+                    }
+                    .listStyle(.plain)
+                    .listRowSpacing(-10)
+
+                    
+                    Spacer()
+                    
+                }
+                
                 Spacer()
+                
             }
             
-            Text("Selected Symptoms")
-                .font(.system(size: 20, weight: .bold, design: .rounded))
-                .foregroundColor(.black)
-                .padding(.horizontal)
-            
-            
-            Spacer()
-            
         }
+        .accentColor(.orange)
+        
         
         
     }
-    
-    
-    
     
 }
 

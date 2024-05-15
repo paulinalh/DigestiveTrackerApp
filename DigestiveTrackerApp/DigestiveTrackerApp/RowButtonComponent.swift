@@ -12,6 +12,7 @@ struct RowButtonComponent: View {
     
     var mainColor: Color // Color to be set from parent
     var darkColor: Color // Color to be set from parent
+    var text: String
 
     
     @State private var isToggled = false
@@ -25,11 +26,11 @@ struct RowButtonComponent: View {
         
         Capsule()
             .fill(.white)
-            .strokeBorder(.blueDark.opacity(0.6), lineWidth: isToggled ? 2 : 0)
+            .strokeBorder(darkColor.opacity(0.6), lineWidth: isToggled ? 2 : 0)
             .onAppear(perform: setupHaptics)
             .overlay(
                 HStack{
-                    Text("Blueberries")
+                    Text(text)
                         .font(.system(size: 17, weight: .bold, design: .rounded))
                         .padding(.horizontal, 20)
                     
@@ -37,17 +38,17 @@ struct RowButtonComponent: View {
                     
                     ZStack{
                         Circle()
-                            .fill(.blueMain.opacity(0.4))
-                            .padding(5)
+                            .fill(mainColor.opacity(0.4))
+                            .padding(7)
                         
                         Image(systemName: isToggled ? "minus" : "plus")
                             .font(.system(size: 17, weight: .bold))
-                            .foregroundColor(Color(.blueDark))
+                            .foregroundColor(Color(darkColor))
                         
                     }
                 }
             )
-            .frame(width: UIScreen.main.bounds.width-30, height: 35)
+            .frame(width: UIScreen.main.bounds.width-30, height: 40)
             .scaleEffect(scale)
             .gesture(
                 DragGesture(minimumDistance: 0)
@@ -68,6 +69,7 @@ struct RowButtonComponent: View {
                         }
                     }
             )
+        
         
         
     }
@@ -108,5 +110,5 @@ struct RowButtonComponent: View {
 }
 
 #Preview {
-    RowButtonComponent(mainColor: .blueMain, darkColor: .darkBlue)
+    RowButtonComponent(mainColor: .blueMain, darkColor: .darkBlue, text: "Blueberries")
 }
