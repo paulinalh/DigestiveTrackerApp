@@ -16,7 +16,6 @@ struct RowButtonComponent: View {
     @State private var scale: CGFloat = 1.0
     
     @State private var engine: CHHapticEngine?
-
     
     var body: some View {
         
