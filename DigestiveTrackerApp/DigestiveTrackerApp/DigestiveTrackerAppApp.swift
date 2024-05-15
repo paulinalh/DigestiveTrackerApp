@@ -10,7 +10,9 @@ import SwiftData
 
 @main
 struct DigestiveTrackerAppApp: App {
+    
     var sharedModelContainer: ModelContainer = {
+        
         let schema = Schema([
             Item.self,
             User.self,
@@ -28,6 +30,7 @@ struct DigestiveTrackerAppApp: App {
             GeneralHealth.self,
             MentalHealth.self,
         ])
+        
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
         do {

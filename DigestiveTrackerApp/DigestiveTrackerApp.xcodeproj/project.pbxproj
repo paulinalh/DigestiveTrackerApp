@@ -29,6 +29,8 @@
 		D4EF63912BF2653200C5D95E /* DigestiveTrackerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EF63902BF2653200C5D95E /* DigestiveTrackerAppTests.swift */; };
 		D4EF639B2BF2653200C5D95E /* DigestiveTrackerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EF639A2BF2653200C5D95E /* DigestiveTrackerAppUITests.swift */; };
 		D4EF639D2BF2653200C5D95E /* DigestiveTrackerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EF639C2BF2653200C5D95E /* DigestiveTrackerAppUITestsLaunchTests.swift */; };
+		D7B58FBD2BF4F61E000E7774 /* MealCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B58FBC2BF4F61E000E7774 /* MealCarousel.swift */; };
+		D7B58FBF2BF4F632000E7774 /* RowButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B58FBE2BF4F632000E7774 /* RowButtonComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,8 @@
 		D4EF63962BF2653200C5D95E /* DigestiveTrackerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigestiveTrackerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EF639A2BF2653200C5D95E /* DigestiveTrackerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigestiveTrackerAppUITests.swift; sourceTree = "<group>"; };
 		D4EF639C2BF2653200C5D95E /* DigestiveTrackerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigestiveTrackerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D7B58FBC2BF4F61E000E7774 /* MealCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCarousel.swift; sourceTree = "<group>"; };
+		D7B58FBE2BF4F632000E7774 /* RowButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowButtonComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,8 @@
 				D46F79432BF389CD0007E394 /* Models */,
 				D4EF637D2BF2653100C5D95E /* DigestiveTrackerAppApp.swift */,
 				D4EF637F2BF2653100C5D95E /* ContentView.swift */,
+				D7B58FBC2BF4F61E000E7774 /* MealCarousel.swift */,
+				D7B58FBE2BF4F632000E7774 /* RowButtonComponent.swift */,
 				D4EF63812BF2653100C5D95E /* Item.swift */,
 				D4EF63832BF2653200C5D95E /* Assets.xcassets */,
 				D4EF63852BF2653200C5D95E /* Preview Content */,
@@ -322,6 +328,8 @@
 				D46F79472BF38BB20007E394 /* Residence.swift in Sources */,
 				D4EF63822BF2653100C5D95E /* Item.swift in Sources */,
 				D46F795F2BF398D90007E394 /* MentalHealth.swift in Sources */,
+				D7B58FBF2BF4F632000E7774 /* RowButtonComponent.swift in Sources */,
+				D7B58FBD2BF4F61E000E7774 /* MealCarousel.swift in Sources */,
 				D4EF637E2BF2653100C5D95E /* DigestiveTrackerAppApp.swift in Sources */,
 				D46F79512BF38F110007E394 /* Medicine.swift in Sources */,
 				D46F79552BF396860007E394 /* Dish.swift in Sources */,
@@ -490,7 +498,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DigestiveTrackerApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 9A34GM6NJL;
+				DEVELOPMENT_TEAM = U9JXWD2ZKD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -519,7 +527,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DigestiveTrackerApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 9A34GM6NJL;
+				DEVELOPMENT_TEAM = U9JXWD2ZKD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
