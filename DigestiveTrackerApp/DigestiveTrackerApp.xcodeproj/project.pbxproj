@@ -31,6 +31,8 @@
 		D4EF63912BF2653200C5D95E /* DigestiveTrackerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EF63902BF2653200C5D95E /* DigestiveTrackerAppTests.swift */; };
 		D4EF639B2BF2653200C5D95E /* DigestiveTrackerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EF639A2BF2653200C5D95E /* DigestiveTrackerAppUITests.swift */; };
 		D4EF639D2BF2653200C5D95E /* DigestiveTrackerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EF639C2BF2653200C5D95E /* DigestiveTrackerAppUITestsLaunchTests.swift */; };
+		D7EA601E2BF5590C00A624F3 /* RowButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EA601D2BF5590C00A624F3 /* RowButtonComponent.swift */; };
+		D7EA60202BF55D9600A624F3 /* DigestiveLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EA601F2BF55D9600A624F3 /* DigestiveLogView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +80,8 @@
 		D4EF63962BF2653200C5D95E /* DigestiveTrackerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigestiveTrackerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EF639A2BF2653200C5D95E /* DigestiveTrackerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigestiveTrackerAppUITests.swift; sourceTree = "<group>"; };
 		D4EF639C2BF2653200C5D95E /* DigestiveTrackerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigestiveTrackerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D7EA601D2BF5590C00A624F3 /* RowButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowButtonComponent.swift; sourceTree = "<group>"; };
+		D7EA601F2BF55D9600A624F3 /* DigestiveLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigestiveLogView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +165,8 @@
 				D46F79432BF389CD0007E394 /* Models */,
 				D4EF637D2BF2653100C5D95E /* DigestiveTrackerAppApp.swift */,
 				D4EF637F2BF2653100C5D95E /* ContentView.swift */,
+				D7EA601D2BF5590C00A624F3 /* RowButtonComponent.swift */,
+				D7EA601F2BF55D9600A624F3 /* DigestiveLogView.swift */,
 				D4EF63812BF2653100C5D95E /* Item.swift */,
 				1DAB80BE2BF4F54800E046F0 /* DesignSystem */,
 				D4EF63832BF2653200C5D95E /* Assets.xcassets */,
@@ -325,11 +331,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D46F79572BF396FF0007E394 /* Ingredient.swift in Sources */,
+				D7EA60202BF55D9600A624F3 /* DigestiveLogView.swift in Sources */,
 				D4A3535D2BF3B52B003B2F63 /* Entry.swift in Sources */,
 				D46F795D2BF398C80007E394 /* GeneralHealth.swift in Sources */,
 				D46F79452BF38A550007E394 /* User.swift in Sources */,
 				D46F795B2BF398950007E394 /* DigestiveHealth.swift in Sources */,
 				D4EF63802BF2653100C5D95E /* ContentView.swift in Sources */,
+				D7EA601E2BF5590C00A624F3 /* RowButtonComponent.swift in Sources */,
 				D46F79492BF38C120007E394 /* Illness.swift in Sources */,
 				1DAB80C22BF503B400E046F0 /* LinearGradientExtension.swift in Sources */,
 				D46F79592BF398450007E394 /* Symptom.swift in Sources */,
