@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DAB80C02BF4F55200E046F0 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAB80BF2BF4F55200E046F0 /* ColorExtension.swift */; };
+		1DAB80C22BF503B400E046F0 /* LinearGradientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAB80C12BF503B400E046F0 /* LinearGradientExtension.swift */; };
 		D46F79452BF38A550007E394 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46F79442BF38A550007E394 /* User.swift */; };
 		D46F79472BF38BB20007E394 /* Residence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46F79462BF38BB20007E394 /* Residence.swift */; };
 		D46F79492BF38C120007E394 /* Illness.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46F79482BF38C120007E394 /* Illness.swift */; };
@@ -49,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DAB80BF2BF4F55200E046F0 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		1DAB80C12BF503B400E046F0 /* LinearGradientExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradientExtension.swift; sourceTree = "<group>"; };
 		D46F79442BF38A550007E394 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D46F79462BF38BB20007E394 /* Residence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Residence.swift; sourceTree = "<group>"; };
 		D46F79482BF38C120007E394 /* Illness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Illness.swift; sourceTree = "<group>"; };
@@ -101,6 +105,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DAB80BE2BF4F54800E046F0 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				1DAB80BF2BF4F55200E046F0 /* ColorExtension.swift */,
+				1DAB80C12BF503B400E046F0 /* LinearGradientExtension.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
 		D46F79432BF389CD0007E394 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +162,7 @@
 				D4EF637D2BF2653100C5D95E /* DigestiveTrackerAppApp.swift */,
 				D4EF637F2BF2653100C5D95E /* ContentView.swift */,
 				D4EF63812BF2653100C5D95E /* Item.swift */,
+				1DAB80BE2BF4F54800E046F0 /* DesignSystem */,
 				D4EF63832BF2653200C5D95E /* Assets.xcassets */,
 				D4EF63852BF2653200C5D95E /* Preview Content */,
 			);
@@ -317,11 +331,13 @@
 				D46F795B2BF398950007E394 /* DigestiveHealth.swift in Sources */,
 				D4EF63802BF2653100C5D95E /* ContentView.swift in Sources */,
 				D46F79492BF38C120007E394 /* Illness.swift in Sources */,
+				1DAB80C22BF503B400E046F0 /* LinearGradientExtension.swift in Sources */,
 				D46F79592BF398450007E394 /* Symptom.swift in Sources */,
 				D46F79532BF3963D0007E394 /* Meal.swift in Sources */,
 				D46F79472BF38BB20007E394 /* Residence.swift in Sources */,
 				D4EF63822BF2653100C5D95E /* Item.swift in Sources */,
 				D46F795F2BF398D90007E394 /* MentalHealth.swift in Sources */,
+				1DAB80C02BF4F55200E046F0 /* ColorExtension.swift in Sources */,
 				D4EF637E2BF2653100C5D95E /* DigestiveTrackerAppApp.swift in Sources */,
 				D46F79512BF38F110007E394 /* Medicine.swift in Sources */,
 				D46F79552BF396860007E394 /* Dish.swift in Sources */,
@@ -490,7 +506,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DigestiveTrackerApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 9A34GM6NJL;
+				DEVELOPMENT_TEAM = 2XTS5VKE3A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -519,7 +535,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DigestiveTrackerApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 9A34GM6NJL;
+				DEVELOPMENT_TEAM = 2XTS5VKE3A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
