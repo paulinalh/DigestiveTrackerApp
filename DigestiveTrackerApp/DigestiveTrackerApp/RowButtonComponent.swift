@@ -13,7 +13,7 @@ struct RowButtonComponent: View {
     var mainColor: Color // Color to be set from parent
     var darkColor: Color // Color to be set from parent
     var text: String
-
+    
     
     @State private var isToggled = false
     @State private var isPressed = false
@@ -41,9 +41,21 @@ struct RowButtonComponent: View {
                             .fill(mainColor.opacity(0.4))
                             .padding(7)
                         
-                        Image(systemName: isToggled ? "minus" : "plus")
-                            .font(.system(size: 17, weight: .bold))
-                            .foregroundColor(Color(darkColor))
+                        if isToggled{
+                            Image(systemName: isToggled ? "minus" : "plus")
+                                .font(.system(size: 17, weight: .bold))
+                                .foregroundColor(Color(darkColor))
+                                .transition(.scale)
+                                .animation(.easeInOut(duration: 0.2), value: isToggled)
+                        }
+                        else{
+                            Image(systemName: isToggled ? "minus" : "plus")
+                                .font(.system(size: 17, weight: .bold))
+                                .foregroundColor(Color(darkColor))
+                                .transition(.scale)
+                                .animation(.easeInOut(duration: 0.2), value: isToggled)
+                        }
+
                         
                     }
                 }
@@ -62,7 +74,7 @@ struct RowButtonComponent: View {
                         }
                     }
                     .onEnded { _ in
-
+                        
                         withAnimation(.spring()) {
                             scale = 1.0
                             isToggled.toggle()
@@ -77,7 +89,7 @@ struct RowButtonComponent: View {
     
     func setupHaptics() {
         guard CHHapticEngine.capabilitiesForHardware().supportsHaptics else { return }
-
+        
         do {
             engine = try CHHapticEngine()
             try engine?.start()
@@ -90,13 +102,13 @@ struct RowButtonComponent: View {
         // Make sure that the device supports haptics
         guard CHHapticEngine.capabilitiesForHardware().supportsHaptics else { return }
         var events = [CHHapticEvent]()
-
+        
         // Create one intense, sharp tap
         let intensity = CHHapticEventParameter(parameterID: .hapticIntensity, value: 0.5)
         let sharpness = CHHapticEventParameter(parameterID: .hapticSharpness, value: 0.2)
         let event = CHHapticEvent(eventType: .hapticTransient, parameters: [intensity, sharpness], relativeTime: 0)
         events.append(event)
-
+        
         // Convert those events into a pattern and play it immediately
         do {
             let pattern = try CHHapticPattern(events: events, parameters: [])
