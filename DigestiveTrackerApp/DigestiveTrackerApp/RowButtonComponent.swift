@@ -65,16 +65,16 @@ struct RowButtonComponent: View {
             .gesture(
                 DragGesture(minimumDistance: 0)
                     .onChanged { _ in
-                        
-                        //Check Haptics Settings, if haptics are on -> Play
-                        buttonPressedHaptics()
-                        
+                                                
                         withAnimation(.spring(response: 0.15, dampingFraction: 0.5, blendDuration: 0)) {
                             scale = 0.95
                         }
                     }
                     .onEnded { _ in
                         
+                        //Check Haptics Settings, if haptics are on -> Play
+                        buttonPressedHaptics()
+
                         withAnimation(.spring()) {
                             scale = 1.0
                             isToggled.toggle()
